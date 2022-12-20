@@ -18,7 +18,7 @@ main(){
 		}
 	}
 	
-	while(start<end){
+	while(start<=end){
 		mid=(start+end)/2;
 		if(ar[mid]==n){
 			found=1;
